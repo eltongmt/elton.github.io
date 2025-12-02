@@ -32,7 +32,7 @@ nav ul li a {
 }
 
 .hero {
-    height: 100vh;
+    height:50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,4 +60,9 @@ footer {
     padding: 20px;
     font-size: 0.9rem;
     color: #999;
+}
+
+
+h1, h2, h3 {
+    text-align: center;
 }
