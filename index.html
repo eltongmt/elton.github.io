@@ -11,7 +11,9 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/starter-template/">
 
     <title>eltongmt</title>
+    <link rel="icon" type="image/x-icon" href="media/ptmweb.png">
 
+    
     
     <!-- Bootstrap core CSS -->
     <link href="bootstrap-3.4.1-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -55,8 +57,8 @@
 				<img class="img-responsive img-rounded " src="media/face_web.png" alt="Photo" style= "max-width: 100%; border:0px solid black"><br>
           <p>
             <p>eltongmt-at-utexas-dot-edu</p>
+            <a target="_blank" href="https://github.com/eltongmt"><font color="black"><b>CV</b></font></a>&nbsp;&nbsp;
             <a target="_blank" href="https://github.com/eltongmt"><font color="black"><i class="fab fa-github fa-lg"></i></font></a>&nbsp;&nbsp;
-            <a target="_blank" href="https://github.com/eltongmt"><font color="black">CV</font></a>&nbsp;&nbsp;
           </p>
 			</div>
 
@@ -68,13 +70,13 @@
             </p>
             
             <p>
-            I completed my honors thesis in the Developing Intelligence Lab under Chen Yu, where I am currently a lab technician.
+            I completed my honors thesis in the <a href="https://www.la.utexas.edu/users/dil/index.html">Developing Intelligence Lab</a>  under <a href="https://scholar.google.com/citations?user=SA3IoXwAAAAJ&hl=en">Chen Yu</a>, where I am currently a lab technician.
              My work in the lab has focused on using machine learning and deep learning to model/categorize natural-behavior data.
             </p>
 
             </p>
             Apart from research, I have greatly supplemented my education 
-            in machine learning, deep learning, reinforcement learning, and robotics through e-learning. 
+            in machine learning, deep learning, reinforcement learning, and robotics through <a href="e_learning.html">e-learning.</a>
             </p>
 
             <p>
@@ -101,11 +103,11 @@
           </div>
               <div class="col-md-9">
                 <p class="title-text">Software Development for Timeseries Analysis<br></p>
-                  <p class="description-text"> 
+                  <ul class="description-text"> 
                     <li>Wrote code to visualize, manipulate, and analyize behavioral timeseries data in matlab</li>
-                    <li>Efficient use of DRY, modularity, and Testing principles</li>
-                    <li>Usase of Deep Learning, Image Processing, Computer Vision, Signal Processing, and Machine Learning Toolbox</li>
-                  </p>
+                    <li>Efficient use of DRY, modularity, and Testing  software principles</li>
+                    <li>Usage of Deep Learning, Image Processing, Computer Vision, Signal Processing, and Machine Learning Toolbox</li>
+                  </ul>
               </div><hr>
         </div><hr>
 
@@ -119,11 +121,13 @@
 					</div>
 				</div>
 				  <div class="col-md-9">
-				  <p class="title-text">Nao object tracking <br></p>
-            <p class="description-text"> 
-              <li>Wrote code to interact with qi library from softbank robotics</li>
-              <li>Acess camera feed, control acuators, and respond to visual input</li>
-            </p>
+				  <p class="title-text">NAO object tracking <br></p>
+            <ul class="description-text"> 
+              <li>Wrote code repo to interact with Softbank Robotics' NAO</li>
+              <li>Built on top of the provided SDK to work with modern python packages such as numpy and cv2</li>
+              <li>Able to access camera feed, control actuators</li>
+              <li>Example shows NAO tracking an object using a custom YOLO model</li>
+            </ul>
 			    </div><hr>
       </div><hr>      
 
@@ -135,12 +139,13 @@
           </div>
         </div>
             <div class="col-md-9">
-              <p class="title-text">Object Clustering from Eco-Centric View</p>
-              <p class="description-text"> 
+              <p class="title-text">Object Clustering from Ego-Centric View</p>
+              <ul class="description-text"> 
                 <li>Fined-tuned YOLO using a custom dataset from ego-centric view</li>
                 <li>Extracted the detected objects and embeded them using resnet</li>
-                <li>Reduced embedding to 2D using multi dimensional scaling, used kmeans to cluster </li>
-              </p>
+                <li>Reduced embedding to 2D using multi dimensional scaling</li>
+                <li>Compared unsupervised clusters to grounth truth clusters</li>
+              </ul>
             </div><hr>
         </div><hr>
       
@@ -155,10 +160,12 @@
 				</div>
 				<div class="col-md-9">
 				<p class="title-text">Rapidly Expanding Random Tree for Path Planning <br></p>
-                <p class="description-text"> 
-                    <li>Implemented RRT from scratch using numpy to find a path that avoids obstacles </li>
-                    <li></li>
-                </p>
+                <ul class="description-text"> 
+                    <li>Implemented RRT from scratch using numpy</li>
+                    <li>The program takes in a list of obstacles, start, and end coordinates and outputs a feasible path</li>
+                    <li>Uses colision checking, graph datastructure, and module testing</li>
+                    <li>Used to simualte the path of a kilobot in CoppeliaSim</li>
+                </ul>
 			  </div><hr>
       </div><hr>
 
