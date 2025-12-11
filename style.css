@@ -3,6 +3,7 @@ body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     color: #333;
     background-color: #fff;
+    padding-top: 70px;
 }
 
 header {
@@ -63,6 +64,20 @@ footer {
 }
 
 
-h1, h2, h3 {
+/*h1, h2, h3 {
     text-align: center;
 }
+*/
+
+
+
+.title-text {
+    font-size: 20px; /* Larger text */
+    font-weight: bold;
+}
+
+.description-text {
+    font-size: 15px; /* Smaller text */
+    color: #333;
+}
+

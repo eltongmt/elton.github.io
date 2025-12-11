@@ -1,42 +1,174 @@
-<html>
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <linK rel="stylesheet" href="style.css">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/starter-template/">
 
-</head>
+    <title>eltongmt</title>
 
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap-3.4.1-dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Elton Martinez</h1>
-            <p>the quick brown fox jumped over the lazy river</p>
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
-    </section>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Work">Work</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
-    <section id="projects" class="section">
-        <h2>Projects</h2>
-        <ul>
-            <li>Publication 1</li>
-            <li>Publication 2</li>
-        </ul>
-    </section>
+    <div class="container" style="padding-top: 30px; font-size: 17px">
+		<h2 id="Home" style="padding-top: 80px; margin-top: -80px;">
+			Elton Martinez
+		</h2>
+		<div class="row">
+			<div class="col-md-3", style="padding-right: 40px">
+				<br>
+				<img class="img-responsive img-rounded " src="media/face_web.png" alt="Photo" style= "max-width: 100%; border:0px solid black"><br>
+          <p>
+            <p>eltongmt-at-utexas-dot-edu</p>
+            <a target="_blank" href="https://github.com/eltongmt"><font color="black"><i class="fab fa-github fa-lg"></i></font></a>&nbsp;&nbsp;
+            <a target="_blank" href="https://github.com/eltongmt"><font color="black">CV</font></a>&nbsp;&nbsp;
+          </p>
+			</div>
 
-    <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>Email: your.email@example.com</p>
-    </section>
+			<div class="col-md-9">
+			<br>
+            <p>
+                Hi! I graduated from the University of Texas at Austin with a 
+                BS in Psychology and a minor in Computer Science. 
+            </p>
+            
+            <p>
+            I completed my honors thesis in the Developing Intelligence Lab under Chen Yu, where I am currently a lab technician.
+             My work in the lab has focused on using machine learning and deep learning to model/categorize natural-behavior data.
+            </p>
 
-    <footer>
-        <p>&copy; 2025 :)</p>
-    </footer>
-</body>
+            </p>
+            Apart from research, I have greatly supplemented my education 
+            in machine learning, deep learning, reinforcement learning, and robotics through e-learning. 
+            </p>
+
+            <p>
+            Broadly, I am interested in embodied AI as a way for artificial agents to learn in a 
+            more generalizable/grounded way.
+            </p>
+
+			</div>
+		</div>
+	</div><br><br>
+    
+    <!-- /.container -->
+    <!-- Work -->
+	<div class="container">
+		<h2 id="Work" style="padding-top: 100px; padding-bottom:30px; margin-top: -80px; text-align: center;">
+			Selected Works 
+		</h2>
+
+      <div class="row">
+          <div class="col-md-3">
+            <div class="video-container text-center" style="overflow: hidden;">
+              <img class="img-fluid img-rounded ustify-content-center" src="media/multi_lib.png" style="align-items: center; max-height: 200px; object-fit: cover; margin-top: 0pt; border:0px solid black" alt="" >
+            </div>
+          </div>
+              <div class="col-md-9">
+                <p class="title-text">Software Development for Timeseries Analysis<br></p>
+                  <p class="description-text"> 
+                    <li>Wrote code to visualize, manipulate, and analyize behavioral timeseries data in matlab</li>
+                    <li>Efficient use of DRY, modularity, and Testing principles</li>
+                    <li>Usase of Deep Learning, Image Processing, Computer Vision, Signal Processing, and Machine Learning Toolbox</li>
+                  </p>
+              </div><hr>
+        </div><hr>
+
+
+      <div class="row">
+        <div class="col-md-3">
+					<div class="video-container" style="overflow: hidden;">
+						<video class="img_responsive" style="border: 0px solid black; margin-top: 0pt; width: 100%; display: block; height: auto;" autoplay muted loop webkit-playsinline playsinline>
+							<source src="media/nao_play.mov" type="video/mp4">
+						</video>
+					</div>
+				</div>
+				  <div class="col-md-9">
+				  <p class="title-text">Nao object tracking <br></p>
+            <p class="description-text"> 
+              <li>Wrote code to interact with qi library from softbank robotics</li>
+              <li>Acess camera feed, control acuators, and respond to visual input</li>
+            </p>
+			    </div><hr>
+      </div><hr>      
+
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="video-container text-center" style="overflow: hidden;">
+            <img class="img-fluid img-rounded ustify-content-center" src="media/attended_objects_mdscale.png" style="align-items: center; max-height: 200px; object-fit: cover; margin-top: 0pt; border:0px solid black" alt="" >
+          </div>
+        </div>
+            <div class="col-md-9">
+              <p class="title-text">Object Clustering from Eco-Centric View</p>
+              <p class="description-text"> 
+                <li>Fined-tuned YOLO using a custom dataset from ego-centric view</li>
+                <li>Extracted the detected objects and embeded them using resnet</li>
+                <li>Reduced embedding to 2D using multi dimensional scaling, used kmeans to cluster </li>
+              </p>
+            </div><hr>
+        </div><hr>
+      
+
+      <div class="row">
+        <div class="col-md-3">
+					<div class="video-container" style="overflow: hidden;">
+						<video class="img_responsive" style="border: 0px solid black; margin-top: 0pt; width: 100%; display: block; height: auto;" autoplay muted loop webkit-playsinline playsinline>
+							<source src="media/growingTree.mp4" type="video/mp4">
+						</video>
+					</div>
+				</div>
+				<div class="col-md-9">
+				<p class="title-text">Rapidly Expanding Random Tree for Path Planning <br></p>
+                <p class="description-text"> 
+                    <li>Implemented RRT from scratch using numpy to find a path that avoids obstacles </li>
+                    <li></li>
+                </p>
+			  </div><hr>
+      </div><hr>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
